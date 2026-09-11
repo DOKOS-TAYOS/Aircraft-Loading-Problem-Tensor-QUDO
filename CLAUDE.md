@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this project is
 
-Research scaffold for combinatorial optimization of a Hotel TSP (travel routing with precedence constraints) using **Tensor-QUDO** and **QUBO** formulations with quantum/classical solver backends. Reference paper: arXiv:2508.01958.
+Research scaffold for combinatorial optimization of a Hotel TSP (travel routing with precedence constraints) using **Tensor-QUDO** and **QUBO** formulations with quantum/classical solver backends. Associated experimental paper: *Benchmarking QAOA on a Tensor-Based QUDO Formulation of a TSP Variant for Travel Search Engines* (ASQC 2026). The QUDO/Tensor-QUDO/HOBO formalism used as methodological background is described separately in arXiv:2508.01958. The code and data associated with the ASQC 2026 work are also archived in Zenodo record 19205809.
 
 **Platform:** Linux only. Python 3.11, 3.12, or 3.13.
 
