@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: If you use this software or the associated paper, please cite it using these metadata.
+message: If you use this software or the associated ASQC 2026 paper, please cite the preferred citation below.
 title: "Hotels-TSP-Tensor-QUDO"
 type: software
 authors:
@@ -12,11 +12,14 @@ authors:
 license: MIT
 version: 0.3.0
 repository-code: "https://github.com/DOKOS-TAYOS/Hotels-TSP-Tensor-QUDO"
-url: "https://arxiv.org/abs/2508.01958"
+url: "https://github.com/DOKOS-TAYOS/Hotels-TSP-Tensor-QUDO"
 abstract: >-
   Research scaffold for Hotel Traveling Salesman Problem optimization with
   Tensor-QUDO and QUBO formulations, solved with QAOA (Cirq, CUDA-Q) and
-  simulated annealing. Accompanied by the formulation paper arXiv:2508.01958.
+  simulated annealing. The software and data accompany the ASQC 2026 paper
+  "Benchmarking QAOA on a Tensor-Based QUDO Formulation of a TSP Variant for
+  Travel Search Engines". The QUDO, Tensor-QUDO and HOBO formalism used by the
+  work is described in arXiv:2508.01958.
 keywords:
   - quantum optimization
   - QAOA
@@ -27,20 +30,21 @@ keywords:
   - simulated annealing
 identifiers:
   - type: other
-    value: "arXiv:2508.01958"
-    description: arXiv preprint identifier
-  - type: doi
-    value: 10.48550/arXiv.2508.01958
+    value: "Zenodo:19205809"
+    description: Zenodo record for the code and data associated with the ASQC 2026 paper
 preferred-citation:
-  type: article
+  type: conference-paper
   authors:
     - family-names: Mata Ali
       given-names: Alejandro
-  title: "Introduction to QUDO, Tensor QUDO and HOBO formulations: Qudits, Equivalences, Knapsack Problem, Traveling Salesman Problem and Combinatorial Games"
-  year: 2025
-  doi: 10.48550/arXiv.2508.01958
-  url: "https://arxiv.org/abs/2508.01958"
-  identifiers:
-    - type: other
-      value: "arXiv:2508.01958"
-      description: arXiv preprint identifier
+    - family-names: Lusso
+      given-names: Adriano
+    - family-names: Combarro
+      given-names: "Elías F."
+    - family-names: Sedano
+      given-names: Javier
+    - family-names: Herrero
+      given-names: Álvaro
+  title: "Benchmarking QAOA on a Tensor-Based QUDO Formulation of a TSP Variant for Travel Search Engines"
+  year: 2026
+  url: "https://55jaiio.sadio.org.ar/wp-content/uploads/2026/07/272.pdf"
