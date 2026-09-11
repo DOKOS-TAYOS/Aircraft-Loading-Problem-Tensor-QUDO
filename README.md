@@ -11,9 +11,11 @@ that minimizes total cost. Costs include:
 Each stay and each trip lasts one timestep. An additional constraint is **precedence**:
 to be in city B, you must first have been in city A.
 
-Formulation reference: [Introduction to QUDO, Tensor QUDO and HOBO formulations](https://arxiv.org/abs/2508.01958) (arXiv:2508.01958).
+Associated paper: [Benchmarking QAOA on a Tensor-Based QUDO Formulation of a TSP Variant for Travel Search Engines](https://55jaiio.sadio.org.ar/wp-content/uploads/2026/07/272.pdf) (ASQC 2026).
+Code and data archive: [Zenodo record 19205809](https://zenodo.org/records/19205809).
+Formulation background: [Introduction to QUDO, Tensor QUDO and HOBO formulations](https://arxiv.org/abs/2508.01958) (arXiv:2508.01958).
 Cost equations: see [docs/formulations.md](docs/formulations.md).
-Cite this repository and paper via [`CITATION.cff`](CITATION.cff).
+Cite this repository and its associated paper via [`CITATION.cff`](CITATION.cff).
 
 **Platform:** Linux only. CUDA-Q and the project tooling are not supported on Windows or macOS. WSL2 works for development.
 
@@ -136,9 +138,10 @@ Placeholders may be committed; bulk generated files are typically gitignored.
 
 Methods used by the solvers (not third-party code copies):
 
+- **Associated paper**: Mata Ali, A.; Lusso, A.; Combarro, E. F.; Sedano, J.; Herrero, Á. (2026). *Benchmarking QAOA on a Tensor-Based QUDO Formulation of a TSP Variant for Travel Search Engines*. Argentinean Symposium on Quantum Computing (ASQC 2026). [Official paper](https://55jaiio.sadio.org.ar/wp-content/uploads/2026/07/272.pdf). Code and data: [Zenodo record 19205809](https://zenodo.org/records/19205809).
+- **Formulation background**: Mata Ali, A. (2025). *Introduction to QUDO, Tensor QUDO and HOBO formulations: Qudits, Equivalences, Knapsack Problem, Traveling Salesman Problem and Combinatorial Games*. [arXiv:2508.01958](https://arxiv.org/abs/2508.01958). This work introduces the QUDO/Tensor-QUDO/HOBO formalism used as methodological background; it is not the associated experimental paper for this repository.
 - **TQA QAOA init** (`qaoa_delta_t`, default `0.55`): Sack, S. H. & Serbyn, M. (2021). *Quantum annealing initialization of the quantum approximate optimization algorithm*. Quantum 5, 491. [doi:10.22331/q-2021-07-01-491](https://doi.org/10.22331/q-2021-07-01-491) ([arXiv:2101.05742](https://arxiv.org/abs/2101.05742)).
 - **SA initial temperature** (`estimate_t0` / Ben-Ameur): Ben-Ameur, W. (2004). *Computing the Initial Temperature of Simulated Annealing*. Computational Optimization and Applications 29(3), 369–385. [doi:10.1023/B:COAP.0000044187.23143.bd](https://doi.org/10.1023/B:COAP.0000044187.23143.bd).
-- **Formulation paper**: Mata Ali, A. (2025). arXiv:2508.01958 — see [`CITATION.cff`](CITATION.cff).
 
 ## License
 
